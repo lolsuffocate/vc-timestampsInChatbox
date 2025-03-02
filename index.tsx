@@ -501,7 +501,7 @@ export default definePlugin({
             ]
         },
         {
-            find: "case\"timestamp\":l",
+            find: "break;case\"timestamp\":",
             replacement: [
                 {
                     match: /case"timestamp":(?<=(\i)=\{.*?guildId:(\i)\.data.*?)(?=.*?(\i),\i,\i.serializedChildren)/,
